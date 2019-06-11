@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dt.billy.androiddemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/android_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/android_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TextViewTest" />
+        <activity android:name=".TextViewTest2" />
+        <activity android:name=".InputUI" />
+        <activity android:name=".ButtonTest" />
+        <activity android:name=".CheckButtonTest" />
+        <activity android:name=".ToggleButtonTest" />
+        <activity android:name=".ClockTest" />
+        <activity android:name=".ChronometerTest" />
+        <activity android:name=".ImageViewTest" />
+        <activity android:name=".ImageButtonTest" />
+        <activity android:name=".QuickContactBadgeTest" />
+        <activity android:name=".SimpleListViewTest" />
+        <activity android:name=".ArrayAdapterTest" />
+        <activity android:name=".ListActivityTest" />
+        <activity android:name=".SimpleAdapterTest" />
+        <activity android:name=".BaseAdapterTest" />
+        <activity android:name=".AutoCompleteTextViewTest" />
+        <activity android:name=".GridViewTest"></activity>
+    </application>
+
+</manifest>

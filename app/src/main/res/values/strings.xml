@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">疯狂安卓</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tip">请选择您喜欢的人物</string>
 
 </resources>

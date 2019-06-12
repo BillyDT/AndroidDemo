@@ -33,7 +33,15 @@
         <activity android:name=".SimpleAdapterTest" />
         <activity android:name=".BaseAdapterTest" />
         <activity android:name=".AutoCompleteTextViewTest" />
-        <activity android:name=".GridViewTest"></activity>
+        <activity android:name=".GridViewTest" />
+        <activity android:name=".ExpandableListViewTest" />
+        <activity android:name=".SpinnerTest" />
+        <activity android:name=".AdapterViewFlipperTest" />
+        <activity android:name=".StackViewTest" />
+        <activity android:name=".ProgressBarTest" />
+        <activity android:name=".TitleProgressBar" />
+        <activity android:name=".SeekBarTest" />
+        <activity android:name=".RatingBarTest"></activity>
     </application>
 
 </manifest>

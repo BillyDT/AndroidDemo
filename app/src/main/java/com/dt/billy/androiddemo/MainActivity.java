@@ -32,7 +32,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "2.5.2使用SimpleAdapter创建ListView",
             "2.5.2扩展BaseAdapter实现不存储列表项的ListView",
             "2.5.3自动完成文本框(AutoCompleteTextView)",
-            "2.5.4带预览的图片浏览器(GridView)"
+            "2.5.4带预览的图片浏览器(GridView)",
+            "2.5.5可展开的列表组件(ExpandableListView)",
+            "2.5.6让用户选择(Spinner)",
+            "2.5.7自动播放的图片库(AdapterViewFlipper)",
+            "2.5.8叠在一起的图片(StackView)",
+            "2.6.0进度条ProgressBar",
+            "2.6.1显示在标题栏上的进度条(API 21(5.0)已废弃)",
+            "2.6.2通过拖动滑块来改变图片的透明度(SeekBar)",
+            "2.6.3通过星级改变图片的透明度(RatingBar)",
+            "     To Be Continued...",
+
     };
 
     @Override
@@ -122,6 +132,38 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 17:
                 intent = new Intent(MainActivity.this, GridViewTest.class);
+                startActivity(intent);
+                break;
+            case 18:
+                intent = new Intent(MainActivity.this, ExpandableListViewTest.class);
+                startActivity(intent);
+                break;
+            case 19:
+                intent = new Intent(MainActivity.this, SpinnerTest.class);
+                startActivity(intent);
+                break;
+            case 20:
+                intent = new Intent(MainActivity.this, AdapterViewFlipperTest.class);
+                startActivity(intent);
+                break;
+            case 21:
+                intent = new Intent(MainActivity.this, StackViewTest.class);
+                startActivity(intent);
+                break;
+            case 22:
+                intent = new Intent(MainActivity.this, ProgressBarTest.class);
+                startActivity(intent);
+                break;
+            case 23:
+                intent = new Intent(MainActivity.this, TitleProgressBar.class);
+                startActivity(intent);
+                break;
+            case 24:
+                intent = new Intent(MainActivity.this, SeekBarTest.class);
+                startActivity(intent);
+                break;
+            case 25:
+                intent = new Intent(MainActivity.this, RatingBarTest.class);
                 startActivity(intent);
                 break;
             default:
